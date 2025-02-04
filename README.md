@@ -85,4 +85,7 @@ Contributions are welcome! Please follow these steps:
 5. Open a pull request.
 6. Please ensure your code adheres to the project's coding standards and includes appropriate tests.
 
-Happy Coding! ❤️
+
+<p align="center">
+   Happy Coding! ❤️
+</p>
