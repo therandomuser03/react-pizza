@@ -1,6 +1,6 @@
 # React Pizza
 
-A responsive and dynamic pizza ordering application built with React and Vite, featuring Lucide icons for a modern and intuitive user interface.
+A responsive static pizza ordering landing page built with React and Vite, featuring Lucide icons for a modern and intuitive user interface.
 
 ## Table of Contents
 
