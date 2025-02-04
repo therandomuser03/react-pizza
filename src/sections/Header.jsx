@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Logo from '../components/Logo';
 import IconButton from '../components/IconButton';
 import NavLink from '../components/NavLink';
+import { Menu, ShoppingCart, User, X } from 'lucide-react';
 
 const Header = () => {
     const [isOpen, setIsOpen]= useState(false);
@@ -27,9 +28,9 @@ const Header = () => {
 
                 {/* Right Section */}
                 <div className='flex items-center gap-6'>
-                    <IconButton />
-                    <IconButton />
-                    <IconButton />
+                    <IconButton icon={ShoppingCart} count={3} />
+                    <IconButton icon={User} />
+                    <IconButton icon={isOpen ? X : Menu} className="lg:hidden" onClick={()=> setIsOpen(!isOpen)} />
                 </div>
             </div>
 
